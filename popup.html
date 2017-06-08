@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  <title>Pusher Test</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+
+  <div class="container-fluid main no-padding">
+
+       <div class="panel panel-primary">
+         <div class="panel-heading">ChatX</div>
+         <div class="panel-body">
+          <form id="submit-message" method="post">
+            <div class="col-xs-4">
+               <div class="form-group">
+                 <input class="form-control" id="name" placeholder="username" required>
+               </div>
+            </div> <br /><br /><br />
+
+            <div id="chat-message">
+
+            </div>
+          
+              <div class="row" id="no-padding">
+
+                 <div class="col-xs-9">
+                    <div class="form-group">
+                      <input class="form-control" id="message" name="message" placeholder="enter message here..." required>
+                    </div>
+                 </div>
+
+                <button type="submit" class="btn btn-primary col-xs-3  no-l-margin">Submit</button>
+ 
+             </div>
+           </form>
+
+         </div>
+       </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/pusher.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
