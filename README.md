@@ -24,3 +24,5 @@ A communication system in chrome extension for a tutorial I made.
   
   3. Run the command. - `php -S localhost:9020 message.php`
   
+  You can read full tutorial [HERE](https://scotch.io/@dongido/how-to-build-a-communication-system-in-google-chrome-extensions-using-pusher)
+  
