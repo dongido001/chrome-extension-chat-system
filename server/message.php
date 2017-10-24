@@ -6,9 +6,12 @@
     'encrypted' => true,
     'cluster'   => 'mt1',
   );
+
+  // Add your real pusher ID here
+  
   $pusher = new Pusher(
-    '*************',
-    '*************',
+    '*************', 
+    '*************', 
     '*******',
     $options
   );
